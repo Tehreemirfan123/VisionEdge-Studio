@@ -30,6 +30,10 @@ The app provides an intuitive interface for uploading images, adjusting algorith
 - **OpenCV (cv2)** (for image processing)
 - **NumPy**
 - **Pillow (PIL)**
+- **numpy==2.2.6**
+- **pillow==11.3.0**
+- **opencv-python==4.12.0.88**
+- **streamlit==1.50.0**
 
 ---
 
@@ -42,20 +46,15 @@ Follow these steps to set up **VisionEdge Studio** locally on your system.
 - git clone https://github.com/Tehreemirfan123/VisionEdge-Studio
 - cd VisionEdge-Studio
 
-### 2️⃣ Create a Virtual Environment
+### 2️⃣ Install Dependencies and the requirements
 
-- On windows, run:
-    - python -m venv venv
-    - venv\Scripts\activate
-
-
-### 3️⃣ Install Dependencies
-
-With the virtual environment active, install all required libraries, run:
+Install all required libraries and run:
 
 - pip install streamlit opencv-python pillow numpy
 
-### 4️⃣ Run the Application
+- pip install -r requirements.txt
+
+### 3️⃣ Run the Application
 
 Start the Streamlit app by running:
 
@@ -64,6 +63,21 @@ Start the Streamlit app by running:
 Once it starts, your browser will automatically open the app at:
 
 - http://localhost:8501
+
+### 4️⃣ Optional tip
+
+To ensure the app runs exactly as intended, it’s recommended to use a virtual environment:
+
+- python -m venv venv
+- venv\Scripts\activate
+
+Once activated, your terminal prompt will show (venv) at the start.And then run
+
+- pip install -r requirements.txt inside it.
+
+Inside the same virtual environment, run the Streamlit app:
+
+- streamlit run app.py
 
 ---
 
