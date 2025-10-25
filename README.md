@@ -87,31 +87,31 @@ Developed with ❤️ by Tehreem Irfan
 ## Screenshots and Images
 
 ### App UI
-<img src="screenshots/AppUI.jpg" width="600"/>
+<img src="Screenshots/AppUI.jpg" width="600"/>
 
 - Figure 1 – Shows the actual default UI of the app (VisionEdge Studio).
 
 ### Image Uploading 
-<img src="screenshots/ImageUpload.jpg" width="600"/>
+<img src="Screenshots/ImageUpload.jpg" width="600"/>
 
 - Figure 2 – Shows an image being uploaded from user's computer.
 
 ### Algorithm Controls
-<img src="screenshots/AlgorithmsControl.jpg" height="500"/>
+<img src="Screenshots/AlgorithmsControl.jpg" height="500"/>
 
 - Figure 3 – Shows the algorithms and parameters controlling tab.
 
 ### Sobel Edge Detection Example
-<img src="screenshots/SobelOperator.jpg" width="600"/>
+<img src="Screenshots/SobelOperator.jpg" width="600"/>
 
 - Figure 4 – Sobel Edge Detection changing parameters (Direction and Kernel size).
 
 ### Laplacian Edge Detection Example
-<img src="screenshots/LaplacianOperator.jpg" width="600"/>
+<img src="Screenshots/LaplacianOperator.jpg" width="600"/>
 
 - Figure 5 – Laplacian Edge Detection changing parameter (Kernel size).
 
 ### Canny Edge Detection Example
-<img src="screenshots/CannyOperator.jpg" width="600"/>
+<img src="Screenshots/CannyOperator.jpg" width="600"/>
 
 - Figure 6 – Canny Edge Detection changing parameters (Lower/upper thresholds, sigma and kernel size).
